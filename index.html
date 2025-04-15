@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investing Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+
+<body>
+    <div class="container">
+        <h1>Investing Dashboard</h1>
+        
+        
+        <div class="dashboard">
+            <!-- First Yahoo Finance Widget -->
+            <div class="widget">
+                <h2>AI Watchlist</h2>
+                <div class="widget-content">
+                    <button onclick="window.open('https://uk.finance.yahoo.com/portfolio/p_8/view/view_6')">Open Page</button>
+                </div>
+            </div>
+            
+            <!-- Second Yahoo Finance Widget -->
+            <div class="widget">
+                <h2>Portfolio</h2>
+                <div class="widget-content">
+                    <button onclick="window.open('https://uk.finance.yahoo.com/portfolio/p_0/view/v2')">Open Page</button>
+                </div>
+            </div>
+
+            <div class="widget">
+                <h2>Heatmap</h2>
+                <div class="widget-content">
+                    <button onclick="window.open('https://uk.finance.yahoo.com/portfolio/p_8/view/view_6')">Open Page</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- CNBC Live Video Feed Widget -->
+        <div class="cnbc-widget">
+            <h2>CNBC Live Video Feed</h2>
+            <div class="video-container">
+                <div class="video-wrapper">
+                    <!-- CNBC official embed code - replace with actual CNBC embed code -->
+                    <iframe 
+                        src="https://www.cnbc.com/live-tv/embed/cnbc-us" 
+                        allowfullscreen
+                        scrolling="no"
+                        allow="encrypted-media">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
